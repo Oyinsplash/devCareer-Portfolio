@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: circular;
+  padding-bottom: 3rem;
+  background: url("https://devcareer.io/images/bg.svg") #05b993;
+}
+.display-picture {
+  border: 5px solid #fff;
+  width: 100%;
+  margin-bottom: 2rem;
+  /* background: url("../assets/images/Oyinkansola\ 20180111_213537.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.profile-names {
+  display: flex;
+  flex-direction: column;
+}
+.profile-nickname {
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  color: #333;
+  border: 1px solid #f8f8f8;
+  background-color: #f8f8f8;
+  margin-top: 1rem;
+}
+.profile-nickname:hover {
+  color: #f8f8f8;
+  border: 1px solid #333333;
+  background-color: #333333;
+  transition: 0.25s ease-in;
+  cursor: pointer;
+}
+.user-info {
+  margin: 2rem 0;
+}
+.user-info-top {
+  text-align: center;
+}
+.user-info-top-link {
+  color: #fab700;
+  font-weight: 900;
+}
+.user-info-top hr {
+  border: 1px solid #ddd;
+  margin: 2rem 1rem 3rem 0;
+}
+.info-name {
+  display: none;
+}
+.info-skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0.8rem;
+}
+.info-skill {
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  border: 1px solid #556270;
+  background-color: #556270;
+  margin: 0.2rem 0.2rem;
+  color: #fff;
+}
+.info hr {
+  margin: 1.5rem 1rem;
+  border: 2px solid #05b993;
+}
+.info-about {
+  font-size: 14px;
+  line-height: 1.625em;
+  color: #969696;
+  word-spacing: 1.5px;
+  margin: 0 1rem;
+}
+.bottom {
+  padding: 3rem 0;
+}
+.bottom-title {
+  margin: 0rem 0 1rem 1rem;
+}
+.bottom-social {
+  display: flex;
+  margin-left: 1rem;
+  flex-wrap: wrap;
+}
+.bottom-social-icon {
+  border-radius: 50%;
+  padding: 0.8rem 0.6rem;
+  font-size: 0.8rem;
+  margin-right: 1rem;
+}
+.facebook {
+  border: 1px solid #3b5999;
+}
+.github {
+  border: 1px solid #333333;
+}
+.instagram {
+  border: 1px solid #c32aa3;
+}
+.linkedin {
+  border: 1px solid #0077b5;
+}
+.medium {
+  border: 1px solid #02b875;
+}
+.twitter {
+  border: 1px solid #1da1f2;
+}
+
+@media only screen and (min-width: 768px) {
+  .profile {
+    padding: 6rem 0;
+  }
+  .display-picture {
+    width: 40%;
+    margin-bottom: 0;
+  }
+  .profile-names {
+    width: 40%;
+  }
+  .profile-name {
+    display: none;
+  }
+  .user-info-top {
+    text-align: right;
+    margin: 0 2rem 3rem;
+  }
+  .user-info-top hr {
+    display: none;
+  }
+  .info {
+    margin: 0 5rem;
+  }
+  .info-name {
+    display: block;
+    margin: 0 0 1.5rem 1rem;
+  }
+  .bottom {
+    margin: 0 5rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+    .container {
+    display: flex;
+    height: 100vh;
+  }
+  .display-picture, .profile-names {
+    width: 80%;
+  }
+}
